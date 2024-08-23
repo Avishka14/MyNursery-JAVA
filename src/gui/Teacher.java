@@ -67,7 +67,7 @@ public class Teacher extends javax.swing.JFrame {
             
             
         } catch (Exception e) {
-          e.printStackTrace();
+           JOptionPane.showMessageDialog(this, "Internal Error Appeared Please Try Again Error"+e, "Error", JOptionPane.ERROR_MESSAGE);
         }
         
         
@@ -472,7 +472,7 @@ public class Teacher extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(this, "Update Success !", "Done", JOptionPane.PLAIN_MESSAGE); 
                                
             } catch (Exception e) {
-              e.printStackTrace();
+               JOptionPane.showMessageDialog(this, "Internal Error Appeared Please Try Again Error"+e, "Error", JOptionPane.ERROR_MESSAGE);
             }
               
               
@@ -562,7 +562,7 @@ public class Teacher extends javax.swing.JFrame {
                        
                        
                    } catch (Exception e) {
-                    e.printStackTrace();
+                   JOptionPane.showMessageDialog(this, "Internal Error Appeared Please Try Again Error"+e, "Error", JOptionPane.ERROR_MESSAGE);
                    }
                    
                    

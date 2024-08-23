@@ -233,7 +233,7 @@ public class PassRec extends javax.swing.JFrame {
               
               
         } catch (Exception e) {
-             e.printStackTrace();
+             JOptionPane.showMessageDialog(this, "Internal Error Appeared Please Try Again Error"+e, "Error", JOptionPane.ERROR_MESSAGE);
         }
           
           
@@ -258,7 +258,7 @@ public class PassRec extends javax.swing.JFrame {
             
             
         } catch (Exception e) {
-          e.printStackTrace();
+        JOptionPane.showMessageDialog(this, "Internal Error Appeared Please Try Again Error"+e, "Error", JOptionPane.ERROR_MESSAGE);
         }
         
             

@@ -53,7 +53,7 @@ public class Student extends javax.swing.JFrame {
             jTable1.setModel(Deftable);                                  
             
         } catch (Exception e) {
-          e.printStackTrace();
+          JOptionPane.showMessageDialog(this, "Internal Error Appeared Please Try Again Error"+e, "Error", JOptionPane.ERROR_MESSAGE);
         }
                
     }
@@ -770,7 +770,7 @@ public class Student extends javax.swing.JFrame {
                     
                     
                 } catch (Exception e) {
-                   e.printStackTrace();
+                  JOptionPane.showMessageDialog(this, "Internal Error Appeared Please Try Again Error"+e, "Error", JOptionPane.ERROR_MESSAGE);
                 }
                 
             }
@@ -851,7 +851,7 @@ public class Student extends javax.swing.JFrame {
                 
                 
             } catch (Exception e) {
-             e.printStackTrace();
+              JOptionPane.showMessageDialog(this, "Internal Error Appeared Please Try Again Error"+e, "Error", JOptionPane.ERROR_MESSAGE);
             }
            
            
@@ -894,7 +894,7 @@ public class Student extends javax.swing.JFrame {
                   }
                 
             } catch (Exception e) {
-             e.printStackTrace();
+          JOptionPane.showMessageDialog(this, "Internal Error Appeared Please Try Again Error"+e, "Error", JOptionPane.ERROR_MESSAGE);
              }
             
             
@@ -958,7 +958,7 @@ public class Student extends javax.swing.JFrame {
                 
                 
             } catch (Exception e) {
-              e.printStackTrace();
+              JOptionPane.showMessageDialog(this, "Internal Error Appeared Please Try Again Error"+e, "Error", JOptionPane.ERROR_MESSAGE);
             }
             
             
