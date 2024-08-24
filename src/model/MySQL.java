@@ -20,7 +20,10 @@ public class MySQL{
         public static void createConnection() throws Exception{
             if(connection == null ){
                 Class.forName("com.mysql.cj.jdbc.Driver");
-                connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mynursery1","root","");
+               
+
+                connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mynursery1","","");
+
                 
             }
             
